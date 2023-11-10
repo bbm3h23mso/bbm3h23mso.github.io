@@ -2,21 +2,9 @@
 <head>
 <body>
 
-<div style="display: inline-blook"> Text 1 </div>
-dieses Wort ist balu 
-<span style="color": blue >Text A</span>
-<span>Text B</span> 
+<div style="display: width:100 hight: 150>
+</div>
 
-
-<style>
-div{ 
-background-color: green;
-margin: 10px;
-pedding: 20px 5px 10px;
-border-top: 5px solid black;
-width: 100px; 
-}
-</style>
 
 
 </body>
