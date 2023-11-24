@@ -1,0 +1,30 @@
+*{
+	background-color:pink;
+}
+div p
+{
+color:white ;
+}
+ul{
+	
+	color:red
+}
+[href]{
+	
+	color:red;
+}
+h1
+{color:balck}
+text-align: center;
+h2
+{color:blue }
+
+h3
+{color:purple}
+
+h1 {
+	text-align: center;
+}
+img {
+	margin: 0 20%;
+}
