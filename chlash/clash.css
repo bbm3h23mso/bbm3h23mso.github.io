@@ -103,10 +103,10 @@ margin: 1,5em;
         margin-inline: 0;
         }
     #r{
-   
+   grid-template-columns: repeat(2,1fr);
 }
 #z{
-   
+   grid-template-columns: repeat(2,1fr);
 }
 }
 
@@ -121,12 +121,10 @@ margin: 1,5em;
         margin-inline: 0;
         }
     #r{
-    display:flex;
-    flex-direction: row;
+    grid-template-columns: repeat(2,1fr);
 }
 #z{
-    display:flex;
-    flex-direction: row;
+  grid-template-columns: repeat(2,1fr);
 }
 }
 
