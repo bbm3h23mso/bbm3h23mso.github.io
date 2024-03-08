@@ -103,12 +103,10 @@ margin: 1,5em;
         margin-inline: 0;
         }
     #r{
-    display:flex;
-    flex-direction: row;
+   
 }
 #z{
-    display:flex;
-    flex-direction: row;
+   
 }
 }
 
