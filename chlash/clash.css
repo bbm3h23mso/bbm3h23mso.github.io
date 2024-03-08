@@ -1,153 +1,150 @@
 #navigation{
-display: flex;
-justify-content: space-between;
-}
-#navigation>nav>ul{
     display: flex;
-    list-style: none;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    font-size:25px ;
-    
-    
-    
-}
-#navigation>nav>ul>li>a{
-display: block;
-padding: 10;
-border-style: solid;
-border: 0,5px;
-text-decoration: none;
-margin-right:3px;
-}
-
-
-#Handy{
-    display:inline-block;
-  
-
-}
-
-
-#Beschreibung{
-    display:inline-block;
-    text-align:top;
-    font-size:35px ;
-}
-#Beschriebung_Downlowd{
-    display:inline-block;
-    
-}
-#Download{
-    display:inline-block;
-    display:flex;
-    flex-direction:row;
-    margin-left: 105px;
-}
-#Android{
-    display:inline-block;
-    display:flex;
-    flex-direction:row;
-    margin-left: 80px;
-    
-}
-
-#links{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    justify-content:space-between;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-
-#Buffs{
-   
-    color: green;
-    font-size:25px 
-}
-#Nerfs{
-    color: red;
-    font-size:25px 
-}
-
-
-img:hover{
-   
-    transform: scale(1.03,1.03);
-    background-position: 100% 50%;
-    transition: ease-in 0,8s;
- 
-}
-
-
-#Change{
-display: grid;
-grid-template-columns: repeat(5,1fr);
-grid-template-rows: repeat(3);
- 
-}
-#card{
-margin: 1,5em;
-}
-
-@media (max-width: 800px) {
-    #Change{
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(6);
+    justify-content: space-between;
     }
-    #card{
-        margin-inline: 0;
-        }
-}
-
-
-
-@media (max-width: 600px) {
-    #Change{
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(12);
+    #navigation>nav>ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        font-size:25px ;
+        
+        
+        
     }
-    #card{
-        margin-inline: 0;
-        }
-
-}
-
-#s{
-    color: green;
-}
-#a{
-    color: red;
-}
-#d{
-    color: rgb(220, 8, 206);
-}
-
-#last{
+    #navigation>nav>ul>li>a{
+    display: block;
+    padding: 10;
+    border-style: solid;
+    border: 0,5px;
+    text-decoration: none;
+    margin-right:3px;
+    }
+    
+    
+    #Handy{
+        display:inline-block;
+        
+    }
+    
+    
+    #Beschreibung{
+        display:inline-block;
+        text-align:top;
+        font-size:35px ;
+    }
+    #Beschriebung_Downlowd{
+        display:inline-block;
+        
+    }
+    #Download{
+        display:inline-block;
+        display:flex;
+        flex-direction:row;
+        margin-left: 105px;
+    }
+    #Android{
+        display:inline-block;
+        display:flex;
+        flex-direction:row;
+        margin-left: 80px;
+        
+    }
+    
+    #links{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        justify-content:space-between;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    
+    #Buffs{
+       
+        color: green;
+        font-size:25px 
+    }
+    #Nerfs{
+        color: red;
+        font-size:25px 
+    }
+    
+    
+    img:hover{
+       
+        transform: scale(1.03,1.03);
+        background-position: 100% 50%;
+        transition: ease-in 0,8s;
+     
+    }
+    
+    
+    #Change{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(3);
-    font-size:19px 
+     
     }
     #card{
     margin: 1,5em;
     }
-
-#e{
-   
-    flex-direction:row;
-    font-size:1em
-}
-#e{
-   width: 23%;
-   height: auto;
-}
-
- #r{
+    
+    @media (max-width: 800px) {
+        #Change{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(6);
+        }
+        #card{
+            margin-inline: 0;
+            }
+    }
+    
+    
+    
+    @media (max-width: 600px) {
+        #Change{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(12);
+        }
+        #card{
+            margin-inline: 0;
+            }
+    }
+    
+    #s{
+        color: green;
+    }
+    #a{
+        color: red;
+    }
+    #d{
+        color: rgb(220, 8, 206);
+    }
+    
+    #last{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3);
+        font-size:19px 
+        }
+        #card{
+        margin: 1,5em;
+        }
+    
+    #e{
+       
+        flex-direction:row;
+        font-size:1em
+    }
+    #e{
+       width: 23%;
+       height: auto;
+    }
+    #r{
         display:flex;
         flex-direction: row;
     }
@@ -155,27 +152,33 @@ margin: 1,5em;
         display:flex;
         flex-direction: row;
     }
-
-
-#t{
-    justify-content:center;
-    justify-content:space-between;
-
-}
-
-
-#Background_picture{
-   
-    background-repeat: repeat;
-    background-position: top; 
-   
-
-}
-.Background_Picture{
-    background-repeat: no-repeat;
-    background-position:top
-
-}
+    
+    
+    
+    #t{
+        justify-content:center;
+        justify-content:space-between;
+    
+    }
+    
+    
+    #Background_picture{
+       
+        background-repeat: repeat;
+        background-position: top; 
+       
+    
+    }
+    .Background_Picture{
+        background-repeat: no-repeat;
+        background-position:top
+    
+    }
+    
+    .fotter{
+        display:block;
+        text-align:center;
+    }
 
 .fotter{
     display:block;
