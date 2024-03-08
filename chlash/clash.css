@@ -102,6 +102,14 @@ margin: 1,5em;
     #card{
         margin-inline: 0;
         }
+    #r{
+    display:flex;
+    flex-direction: row;
+}
+#z{
+    display:flex;
+    flex-direction: row;
+}
 }
 
 
@@ -114,6 +122,14 @@ margin: 1,5em;
     #card{
         margin-inline: 0;
         }
+    #r{
+    display:flex;
+    flex-direction: row;
+}
+#z{
+    display:flex;
+    flex-direction: row;
+}
 }
 
 #s{
@@ -145,14 +161,7 @@ margin: 1,5em;
    width: 23%;
    height: auto;
 }
-#r{
-    display:flex;
-    flex-direction: row;
-}
-#z{
-    display:flex;
-    flex-direction: row;
-}
+
 
 
 
