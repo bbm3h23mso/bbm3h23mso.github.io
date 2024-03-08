@@ -160,7 +160,14 @@ margin: 1,5em;
    height: auto;
 }
 
-
+ #r{
+        display:flex;
+        flex-direction: row;
+    }
+    #z{
+        display:flex;
+        flex-direction: row;
+    }
 
 
 #t{
