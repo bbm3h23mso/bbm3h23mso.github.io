@@ -102,12 +102,6 @@ margin: 1,5em;
     #card{
         margin-inline: 0;
         }
-    #r{
-   grid-template-columns: repeat(2,1fr);
-}
-#z{
-   grid-template-columns: repeat(2,1fr);
-}
 }
 
 
@@ -120,12 +114,7 @@ margin: 1,5em;
     #card{
         margin-inline: 0;
         }
-    #r{
-    grid-template-columns: repeat(2,1fr);
-}
-#z{
-  grid-template-columns: repeat(2,1fr);
-}
+
 }
 
 #s{
